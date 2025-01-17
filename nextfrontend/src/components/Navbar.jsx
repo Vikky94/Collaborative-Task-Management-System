@@ -21,6 +21,7 @@ export function NavigationMenuDemo() {
         }
     ]
   return (
+    <header className="header-section">
     <NavigationMenu>
       <NavigationMenuList>
         {
@@ -38,5 +39,6 @@ export function NavigationMenuDemo() {
         }
       </NavigationMenuList>
     </NavigationMenu>
+    </header>
   )
 }
